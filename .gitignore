@@ -1,0 +1,9 @@
+__pycache__/
+*.egg-info/
+.venv/
+build/
+dist/
+results/
+*.mp4
+*.mov
+*.avi
