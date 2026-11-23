@@ -12,7 +12,7 @@ def table(rows):
 
 
 def format_metric(value):
-    if isinstance(value, list):
+    if isinstance(value, (list, tuple)):
         return " / ".join(format_metric(item) for item in value)
     return "不可用" if value is None else f"{value:.4g}"
 
